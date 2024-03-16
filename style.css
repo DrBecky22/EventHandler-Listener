@@ -1,0 +1,12 @@
+* {
+    text-align: center;
+}
+
+div {
+    height: auto;
+    width: 75vw;
+    border: 2px solid black;
+    padding-bottom: 30px;
+    position: relative;
+    margin: auto;
+}
