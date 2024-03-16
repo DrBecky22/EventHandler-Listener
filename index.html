@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="script.js defer"></script>
+    <script src="script.js" defer></script>
     <title>Handlers and Listeners</title>
 </head>
 <body>
@@ -17,14 +17,15 @@
 
     <div id="divTwo">
         <h3>This section uses event handlers in the HTML code</h3>
-        <p>interact with the button below to change the color of this text. Try hovering over the button, moving the mouse away from the button, and then clicking the button</p>
+        <p id="colorText">interact with the button below to change the color of this text. Try hovering over the button, moving the mouse away from the button, and then clicking the button</p>
         <button type="button" id="htmlBtn" onmouseover="redText()"; onmouseout="blueText()"; onclick="greenText()">Interact with Me</button>
+        <button type="button" onclick="boldText()">Make Me Bold</button>
     </div>
 
     <div id="divThree">
         <h3>This section uses event listeners in the JS code</h3>
         <p>interact with the button below to change the background color of this area. Try hovering over the button, moving the mouse away from the button, and then clicking the button </p>
-        <button type="button" id="jsBtn">Hover over me</button>
+        <button type="button" id="jsBtn">Interact with Me</button>
         <!-- <button type="button" id="jsBtn2">Move mouse over then away from me</button>
         <button type="button" id="jsBtn3">Click Me</button> -->
     </div>
