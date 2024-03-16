@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Handlers and Listeners</title>
+</head>
+<body>
+    <header>
+        <h1 id="pageTitle">Event Handlers vs Listeners</h1>
+    </header>
+    <div id="divOne">
+        <h2 id="pageSubTitle">demo of code difference between handlers and listeners</h2>
+    </div>
+
+    <div id="divTwo">
+        <h3>This section uses event handlers in the HTML code</h3>
+        <p>interact with the button below to change the color of this text. Try hovering over the button, moving the mouse away from the button, and then clicking the button</p>
+        <button type="button" id="htmlBtn" onmouseover="redText()"; onmouseout="blueText()"; onclick="greenText()">Interact with Me</button>
+    </div>
+
+    <div id="divThree">
+        <h3>This section uses event listeners in the JS code</h3>
+        <p>interact with the button below to change the color of this text. Try hovering over the button, moving the mouse away from the button, and then clicking the button </p>
+        <button type="button" id="jsBtn">No, Ineract with ME</button>
+    </div>
+</body>
+</html>
